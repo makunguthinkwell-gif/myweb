@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makungu Thinkwell - My Student Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Makungu Thinkwell - My Student Website</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">My Hobbies</a>
+    <a href="#learning-plan">My Learning Plan</a>
+    <a href="#photos">My Photos</a>
+    <a href="#media">My Media</a>
+    <a href="#contact">Contact</a>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener">Learn Web Development</a>
+</nav>
+
+<main>
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>
+            My name is Makungu Thinkwell, and I am a student at Mulungushi University.
+            I am interested in learning how websites are created and how different web
+            technologies work together. Through this course, I want to improve my
+            understanding of HTML and CSS and become more confident in creating webpages.
+            I also want to develop practical skills that I can use in my studies and
+            future projects.
+        </p>
+        <p>
+            My goal is to continue learning and practising web development so that I can
+            create websites that are simple, useful, attractive, and easy for people to use.
+        </p>
+    </section>
+
+    <section id="hobbies" class="content-section">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Exploring Technology</li>
+            <li>Listening to Music</li>
+        </ul>
+    </section>
+
+    <section id="learning-plan" class="content-section">
+        <h2>My Learning Plan</h2>
+        <p>
+            I plan to improve my web development skills through regular practice,
+            learning new concepts, and creating small projects.
+        </p>
+        <ol>
+            <li>Practise HTML and learn how to structure webpages correctly.</li>
+            <li>Learn CSS and practise creating attractive and responsive webpages.</li>
+            <li>Build small web projects to improve my practical skills.</li>
+        </ol>
+
+        <table>
+            <caption>My Weekly Web Learning Plan</caption>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Topic</th>
+                    <th>Practice Task</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>Practise creating webpage structure and headings.</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>CSS</td>
+                    <td>Practise styling text, sections, and navigation.</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Web Projects</td>
+                    <td>Build and test a small webpage.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="photos" class="content-section">
+        <h2>My Photos</h2>
+        <p>Here are some photos related to my hobbies and interests.</p>
+        <div class="gallery">
+            <figure>
+                <img src="images/image-1.jpg" alt="Photo related to listening to music">
+                <figcaption>Exploring Technology</figcaption>
+            </figure>
+            <figure>
+                <img src="images/image-2.jpg" alt="Photo related to exploring technology">
+                <figcaption>Reading</figcaption>
+            </figure>
+            <figure>
+                <img src="images/image-3.jpg" alt="Photo related to reading">
+                <figcaption>Music</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section id="media" class="content-section">
+        <h2>My Media</h2>
+
+        <h3>My Introduction Video</h3>
+        <video controls>
+            <source src="videos/video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <p>This video introduces me, my programme, and one web development skill I hope to learn.</p>
+        <p>
+            <strong>Video summary:</strong>
+            In this video, I introduce myself, talk about my programme, and explain one
+            web development skill I want to improve.
+        </p>
+
+        <h3>My Audio</h3>
+
+        <audio controls preload="metadata" style="width: 100%;height: 54;">
+            <source src="videos/voice.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p>This audio recording talks about one of my hobbies and why I enjoy it.</p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <p><strong>Name:</strong> Makungu Thinkwell</p>
+        <p><strong>Student Number:</strong> 202500822</p>
+        <p><strong>Phone:</strong> 0976862707 / 0767893837</p>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:makunguthinkwell@gmail.com">makunguthinkwell@gmail.com</a>
+        </p>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" name="topic">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p>This form is included for demonstration purposes and does not send information to a real server.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Makungu Thinkwell. All rights reserved.</p>
+    <p>Mulungushi University - Web Technologies</p>
+</footer>
+
+</body>
+</html>
