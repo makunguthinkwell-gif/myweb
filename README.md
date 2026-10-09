@@ -1,7 +1,7 @@
 # Makungu Thinkwell — ICT251 Interactive Personal Website
 
-Live site: https://YOUR-RENDER-URL.onrender.com (update after deployment)
-Repository: https://github.com/YOUR-USERNAME/myweb (update with your repo link)
+Live site: https://myweb-260m.onrender.com (update after deployment)
+Repository: https://github.com/makunguthinkwell-gif/myweb (update with your repo link)
 
 ## About this project
 
